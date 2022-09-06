@@ -1,0 +1,287 @@
+html {
+    background: #3C3D3C;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.CajaBuscar .busca {
+    position:relative;
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+    left: 410px;
+    top: 20px;
+    border-radius: 20px;
+    transition: box-shadow .3s;
+}
+
+.CajaBuscar .busca:hover {
+box-shadow: 4px 7px #1a1a1a;
+}
+.CajaBuscar ::-webkit-input-placeholder{
+    text-align: center;
+}
+
+.Nelback {
+    position: relative;
+    left: 490px;
+    top: 90px;
+    font-size: 80px;
+    color:white;
+}
+
+/* panel 1 */
+
+.panel1 {
+    position: relative;
+    background: #252525;
+    top: 100px;
+    left: 200px;
+    width: 160px;
+    height: 200px;
+    transform:scale(1.0);
+    transition:transform 0.3s;
+}
+
+.panel1:hover {
+transform: scale(1.2);
+}
+
+.logotwi1 {
+    position: relative;
+    top:20px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.circulo {
+    position:absolute;
+    top:13px;
+    left: 24px;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 4px black solid;
+    background:#3E3E3E;
+}
+
+.auronplay {
+    position:relative;
+    top:30px;
+    left:18px;
+}
+
+/* panel2  */
+
+.panel2 {
+    position: relative;
+    background: #252525;
+    top: -100px;
+    left: 400px;
+    width: 160px;
+    height: 200px;
+    transform:scale(1.0);
+    transition:transform 0.3s;
+}
+
+.panel2:hover {
+transform: scale(1.2);
+}
+
+.logotwi2 {
+    position: relative;
+    top:20px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.circulo2 {
+    position:absolute;
+    top:13px;
+    left: 24px;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 4px black solid;
+    background:#3E3E3E;
+}
+
+.Juan {
+    position:relative;
+    top:30px;
+    left:0px;
+}
+
+
+/*panel 3 */
+
+.panel3 {
+    position: relative;
+    background: #252525;
+    top: -300px;
+    left: 600px;
+    width: 160px;
+    height: 200px;
+    transform:scale(1.0);
+    transition:transform 0.3s;
+}
+
+.panel3:hover {
+transform: scale(1.2);
+}
+
+.logotradu {
+    position: relative;
+    top:30px;
+    left: 45px;
+    width: 70px;
+    height: 70px;
+
+}
+
+.circulo3 {
+    position:absolute;
+    top:13px;
+    left: 24px;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 4px black solid;
+    background:#3E3E3E;
+}
+
+.tradu {
+    position:relative;
+    top:60px;
+    left:30px;
+}
+
+/* botones */
+
+.botones .gmail {
+    height:40px;
+    width:55px;
+}
+
+.bton1 {
+    position:relative;
+    left:50px;
+}
+
+.mail{
+    position:relative;
+    background: white;
+    width:270px;
+    border-radius: 20px 20px;
+    top:-190px;
+    transition: box-shadow .3s;
+}
+
+.mail:hover {
+ box-shadow: 4px 7px #1a1a1a;
+ cursor:pointer;
+}
+
+.letras1 {
+    font-size: 20px;
+    top:-10px;
+    cursor:pointer;
+}
+
+/* boton 2 */
+
+.botones .yutu {
+    height:40px;
+    width:40px;
+}
+
+.bton2 {
+    position:relative;
+    left:50px;
+}
+
+.yt{
+    position:relative;
+    background: white;
+    width:270px;
+    border-radius: 20px 20px;
+    top:-235px;
+    left:1050px;
+    transition: box-shadow .3s;
+    cursor:pointer;
+}
+
+.yt:hover {
+ box-shadow: 4px 7px #1a1a1a;
+}
+
+.letras2 {
+    font-size: 20px;
+    top:-13px;
+    cursor: pointer;
+}
+
+/* boton oculto pa  */
+
+input[id^="span"] {
+display:none;
+}
+
+input[id^="span"] + .label1{
+    position:relative;
+    display: flex;
+    width:40px;
+    margin: 0;
+    padding: 10px 20px;
+    background: purple;
+    cursor:pointer;
+    justify-content: center;
+    float:right;
+    top:-220px;
+    border-radius: 90px;
+}
+
+input[id^="span"] ~ .span {
+    display:none;
+}
+
+input[id^="span"]:checked ~ .span {
+    display:block;
+}
+
+.span {
+    position:relative;
+    float:right;
+    left:87px;
+    top:-150px;
+    overflow-y:scroll ;
+    width: 400px;
+    height: 440px;
+    background-color:#222222;
+}
+
+.span img {
+    width: 70px;
+    height: 70px;
+    transition: transform 0.3s;
+    cursor:pointer;
+}
+
+.span img:hover {
+    transform: scale(1.2);
+}
+
+.label1 img {
+    width:40px;
+    height:40px;
+}
